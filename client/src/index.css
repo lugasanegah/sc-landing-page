@@ -1,0 +1,196 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --preline-co-inter-regular-font-family: "Inter", sans-serif;
+  --preline-co-inter-regular-font-size: 14.625px;
+  --preline-co-inter-regular-font-style: normal;
+  --preline-co-inter-regular-font-weight: 400;
+  --preline-co-inter-regular-letter-spacing: 0px;
+  --preline-co-inter-regular-line-height: 24px;
+  --preline-co-manrope-regular-font-family: "Manrope", sans-serif;
+  --preline-co-manrope-regular-font-size: 14px;
+  --preline-co-manrope-regular-font-style: normal;
+  --preline-co-manrope-regular-font-weight: 400;
+  --preline-co-manrope-regular-letter-spacing: 0px;
+  --preline-co-manrope-regular-line-height: 20px;
+  --preline-co-semantic-blockquote-font-family: "Inter", sans-serif;
+  --preline-co-semantic-blockquote-font-size: 18.4375px;
+  --preline-co-semantic-blockquote-font-style: normal;
+  --preline-co-semantic-blockquote-font-weight: 400;
+  --preline-co-semantic-blockquote-letter-spacing: 0px;
+  --preline-co-semantic-blockquote-line-height: 28px;
+  --preline-co-semantic-button-font-family: "Inter", sans-serif;
+  --preline-co-semantic-button-font-size: 13.125px;
+  --preline-co-semantic-button-font-style: normal;
+  --preline-co-semantic-button-font-weight: 400;
+  --preline-co-semantic-button-letter-spacing: 0px;
+  --preline-co-semantic-button-line-height: 20px;
+  --preline-co-semantic-heading-2-font-family: "Manrope", sans-serif;
+  --preline-co-semantic-heading-2-font-size: 35.15625px;
+  --preline-co-semantic-heading-2-font-style: normal;
+  --preline-co-semantic-heading-2-font-weight: 700;
+  --preline-co-semantic-heading-2-letter-spacing: 0px;
+  --preline-co-semantic-heading-2-line-height: 40px;
+  --preline-co-semantic-heading-3-font-family: "Manrope", sans-serif;
+  --preline-co-semantic-heading-3-font-size: 16.734375px;
+  --preline-co-semantic-heading-3-font-style: normal;
+  --preline-co-semantic-heading-3-font-weight: 400;
+  --preline-co-semantic-heading-3-letter-spacing: 0px;
+  --preline-co-semantic-heading-3-line-height: 28px;
+  --preline-co-semantic-heading-4-font-family: "Inter", sans-serif;
+  --preline-co-semantic-heading-4-font-size: 13.453125px;
+  --preline-co-semantic-heading-4-font-style: normal;
+  --preline-co-semantic-heading-4-font-weight: 400;
+  --preline-co-semantic-heading-4-letter-spacing: 0px;
+  --preline-co-semantic-heading-4-line-height: 20px;
+  --preline-co-semantic-item-font-family: "Inter", sans-serif;
+  --preline-co-semantic-item-font-size: 11.25px;
+  --preline-co-semantic-item-font-style: normal;
+  --preline-co-semantic-item-font-weight: 400;
+  --preline-co-semantic-item-letter-spacing: 0px;
+  --preline-co-semantic-item-line-height: 16px;
+  --preline-co-semantic-link-font-family: "Inter", sans-serif;
+  --preline-co-semantic-link-font-size: 12.90625px;
+  --preline-co-semantic-link-font-style: normal;
+  --preline-co-semantic-link-font-weight: 400;
+  --preline-co-semantic-link-letter-spacing: 0px;
+  --preline-co-semantic-link-line-height: 20px;
+  --prelinecoathens-gray: rgba(243, 244, 246, 1);
+  --prelinecobittersweet: rgba(255, 100, 103, 1);
+  --prelinecoblack: rgba(0, 0, 0, 1);
+  --prelinecoblue-ribbon: rgba(21, 93, 252, 1);
+  --prelinecocandlelight: rgba(255, 224, 27, 1);
+  --prelinecocinnabar: rgba(226, 67, 41, 1);
+  --prelinecofern-green: rgba(94, 142, 62, 1);
+  --prelinecogray-chateau: rgba(153, 161, 175, 1);
+  --prelinecomalachite: rgba(0, 201, 80, 1);
+  --prelinecomirage: rgba(30, 41, 57, 1);
+  --prelinecoorange: rgba(252, 109, 38, 1);
+  --prelinecopale-sky: rgba(106, 114, 130, 1);
+  --prelinecored-orange: rgba(251, 44, 54, 1);
+  --prelinecoselective-yellow: rgba(240, 177, 0, 1);
+  --prelinecosupernova: rgba(253, 199, 0, 1);
+  --prelinecosushi: rgba(149, 191, 70, 1);
+  --prelinecovermilion: rgba(255, 74, 0, 1);
+  --prelinecowhite: rgba(255, 255, 255, 1);
+  --prelinecowhite-40: rgba(255, 255, 255, 0.4);
+  --prelinecowhite-50: rgba(255, 255, 255, 0.5);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  .clip-path-star {
+  clip-path: polygon(
+    50% 0%,
+    61% 18%,
+    80% 20%,
+    68% 35%,
+    70% 55%,
+    50% 45%,
+    30% 55%,
+    32% 35%,
+    20% 20%,
+    39% 18%
+  );
+}
+
+@keyframes marquee-infinite {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-infinite {
+  animation: marquee-infinite 70s linear infinite;
+}
+
+.animate-marquee-infinite:hover {
+  animation-play-state: paused;
+}
+
+}

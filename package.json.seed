@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "seed": "tsx server/scripts/seedBlogs.ts"
+  }
+}
